@@ -168,31 +168,14 @@ main {
 }
 .career_list li {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 110px 1fr;
   gap: 10px;
   padding: 0px 10px;
 }
 .career_list .year {
-  width: 200px;           
+  width: 110px;           
 }
 .career_list .event {
-  flex-grow: 1;           
-}
-
-.career_list_en {
-  list-style: none;       
-  padding-left: 0;
-}
-.career_list_en li {
-  display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 0px;
-  padding: 0px 10px;
-}
-.career_list_en .year {
-  width: 120px;           
-}
-.career_list_en .event {
   flex-grow: 1;           
 }
 
