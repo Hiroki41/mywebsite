@@ -171,6 +171,7 @@ main {
   grid-template-columns: 110px 1fr;
   gap: 10px;
   padding: 0px 10px;
+  margin: 10px 0;
 }
 .career_list .year {
   width: 110px;           
